@@ -1,0 +1,922 @@
+body
+{
+    background-image: url("img/bp2.jpg");
+    padding: 1%;
+}
+.fa-solid 
+{
+    color: #bb6565;
+    cursor: pointer;
+    margin-top: 0%;
+}
+.fa-house
+{
+    color: #bb6565;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: 95%;
+}
+.top
+{
+    margin-left: 27%;
+}
+
+.top h1
+{
+    text-align: center;
+    width: fit-content;
+    margin-top: 0%;
+    padding-top: 10.1px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 10.1px;
+    border-radius: 40px;
+    margin-left: 15%;
+    background-color: #e19393;
+    color: beige;
+    letter-spacing: 8px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.Acontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-bottom: -28%;
+}
+.Acontainer:hover > .Acard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Acard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Afront,
+.Aback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Afront
+{
+    background-color: #f4c653;
+}
+.Afront img
+{
+    padding: 0%;
+    width: 280px;
+    height: 430px;
+}
+.Aback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+.Bcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 26%;
+    margin-bottom: -28%;
+}
+.Bcontainer:hover > .Bcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Bcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Bfront,
+.Bback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Bfront
+{
+    background-color: #f4c653;
+}
+.Bfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Bback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ccontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 53%;
+    margin-bottom: -28.2%;
+}
+.Ccontainer:hover > .Ccard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Ccard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Cfront,
+.Cback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Cfront
+{
+    background-color: #f4c653;
+}
+.Cfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Cback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Dcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 80%;
+}
+.Dcontainer:hover > .Dcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Dcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Dfront,
+.Dback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Dfront
+{
+    background-color: #f4c653;
+}
+.Dfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Dback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Econtainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-bottom: -28%;
+    margin-top: 3%;
+}
+.Econtainer:hover > .Ecard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Ecard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Efront,
+.Eback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Efront
+{
+    background-color: #f4c653;
+}
+.Efront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Eback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Fcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 26%;
+    margin-bottom: -28%;
+    margin-top: -1%;
+}
+.Fcontainer:hover > .Fcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Fcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Ffront,
+.Fback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Ffront
+{
+    background-color: #f4c653;
+}
+.Ffront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Fback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Gcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 53%;
+    margin-bottom: -28.2%;
+}
+.Gcontainer:hover > .Gcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Gcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Gfront,
+.Gback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Gfront
+{
+    background-color:#f4c653;
+}
+.Gfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Gback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Hcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 80%;
+}
+.Hcontainer:hover > .Hcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Hcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Hfront,
+.Hback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Hfront
+{
+    background-color: #f4c653;
+}
+.Hfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Hback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-bottom: -28%;
+    margin-top: 3%;
+}
+.Icontainer:hover > .Icard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Icard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Ifront,
+.Iback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Ifront
+{
+    background-color: #f4c653;
+}
+.Ifront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Iback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Jcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 26%;
+    margin-bottom: -28%;
+    margin-top: -1%;
+}
+.Jcontainer:hover > .Jcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Jcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Jfront,
+.Jback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Jfront
+{
+    background-color: #f4c653;
+}
+.Jfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Jback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Kcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 53%;
+    margin-bottom: -28.2%;
+}
+.Kcontainer:hover > .Kcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Kcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Kfront,
+.Kback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Kfront
+{
+    background-color: #f4c653;
+}
+.Kfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Kback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 80%;
+}
+.Lcontainer:hover > .Lcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Lcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Lfront,
+.Lback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Lfront
+{
+    background-color:#f4c653;
+}
+.Lfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Lback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-bottom: -28%;
+    margin-top: 3%;
+}
+.Mcontainer:hover > .Mcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Mcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Mfront,
+.Mback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Mfront
+{
+    background-color: #f4c653;
+}
+.Mfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Mback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Ncontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 26%;
+    margin-bottom: -28%;
+    margin-top: -1%;
+}
+.Ncontainer:hover > .Ncard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Ncard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Nfront,
+.Nback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Nfront
+{
+    background-color: #f4c653;
+}
+.Nfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Nback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ocontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 53%;
+    margin-bottom: -28.2%;
+}
+.Ocontainer:hover > .Ocard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Ocard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Ofront,
+.Oback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Ofront
+{
+    background-color: #f4c653;
+}
+.Ofront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Oback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pcontainer
+{
+    width: 280px;
+    height: 420px;
+    perspective: 800px;
+    margin-right: -8%;
+    margin-left: 80%;
+}
+.Pcontainer:hover > .Pcard
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.Pcard
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.Pfront,
+.Pback
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.Pfront
+{
+    background-color: #f4c653;
+}
+.Pfront img
+{
+    padding: 3%;
+    width: 250px;
+    height: 400px;
+}
+.Pback
+{
+    padding: 3%;
+    background-color: #4f3803;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+body
+{
+    padding: 1%;
+    margin-top: 2%;
+    background-image: url("img/main.jpg");
+    background-size: cover;
+    text-decoration: none;
+}
+.fa-solid
+{
+  color: #cb7575;
+  cursor: pointer;
+}
+h1
+{
+    font-size: 50PX;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #7d7098;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.Alphabet 
+{
+  border-radius: 40px;
+  border: 0;
+  font-size: 45px;
+  font-family: 'EB Garamond', serif;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  color: #8f2faa;
+  margin-bottom: 1%;
+  background-color: #7d7098;
+}
+.Alphabet:hover
+{
+    background-color: #8f2faa;
+    color: beige;
+    text-decoration: none;
+}
+.Phrases 
+{
+  border-radius: 40px;
+  border: 0;
+  font-size: 45px;
+  font-family: 'EB Garamond', serif;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 1%;
+  color: #8f2faa;
+  background-color: #7d7098;
+}
+.Phrases:hover
+{
+    background-color: #8f2faa;
+    color: beige;
+}
+.Video 
+{
+  border-radius: 40px;
+  border: 0;
+  font-size: 45px;
+  font-family: 'EB Garamond', serif;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 1%;
+  color: #8f2faa;
+  background-color: #7d7098;
+}
+.Video:hover
+{
+    background-color: #8f2faa;
+    color: beige;
+}
+.Quiz 
+{
+  border-radius: 40px;
+  border: 0;
+  font-size: 45px;
+  font-family: 'EB Garamond', serif;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  color: #8f2faa;
+  background-color: #7d7098;
+}
+.Quiz:hover
+{
+    background-color: #8f2faa;
+    color: beige;
+}

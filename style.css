@@ -1,0 +1,75 @@
+body
+{
+    background-image: url("img/bg2.jpg");
+    padding: 0%;
+}
+.fa-solid
+{
+    justify-content: right;
+    color: #cb7575;
+    cursor: pointer;
+    margin-left: 95%;
+    margin-top: 1%;
+}
+
+.top
+{
+    margin-left: 30%;
+    margin-top: -4%;
+}
+
+.top h2
+{
+    width: -1%;
+    margin-top: 10%;
+    padding-top: 10.1px;
+    padding-left: 14px;
+    padding-bottom: 10.1px;
+    text-align: center;
+    border-radius: 40px;
+    border: 0;
+    margin-left: 11%;
+    margin-right: 53%;
+    background-color: #e19393;
+    color: beige;
+    letter-spacing: 8px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+img
+{
+    margin-left: 23%;
+    margin-top: 0%;
+}
+
+.btn
+{
+  border-radius: 40px;
+  border: 0;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: 'Caveat Brush', cursive;
+  align-content: center;
+  margin: 1px;
+  margin-top: 5%;
+  margin-left: 35%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #8f2faa;
+  background-color: #7d7098;
+}
+.btn:hover
+{
+    background-color: #8f2faa;
+    color: beige;
+}
+.hello img
+{
+    height: 200px;
+    margin-top: -2%;
+    margin-left: 3%;
+}
