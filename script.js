@@ -161,7 +161,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
             <h2>Congratulations!</h2>
             <h2>You've answered all the questions</h2>   
-            <h2><img src="trophy-icon.png"/></h2>
+            <h2><img src="Quiz_Page/trophy-icon.png"/></h2>
             <h2>Here's Your score :</h2>
             <h2>${score}/${quizData.length}</h2>
             <button onclick="location.reload()">Reload</button>
