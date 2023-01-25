@@ -3,7 +3,7 @@
 const quizData =[
     
     {   
-        img : '1674367353285.png',
+        img : 'Quiz_Page/1674367353285.png',
         question: "Question 1/10 \nWhat is the alphabet of this hand sign?",
         a:"Z ",
         b:"A ",
@@ -12,7 +12,7 @@ const quizData =[
         correct:"a",
     },
     {
-        img : 'quiziloveyou.png',
+        img : 'Quiz_Page/quiziloveyou.png',
         question: "Question 2/10 \nWhat is the phrase of this hand sign?",
         a:"How Much? ",
         b:"Hi / Hello ",
@@ -21,7 +21,7 @@ const quizData =[
         correct:"d",
     },
     {
-        img : '1674367373664.png',
+        img : 'Quiz_Page/1674367373664.png',
         question: "Question 3/10 \nWhat is the alphabet of this hand sign?",
         a:"Y ",
         b:"U ",
@@ -30,7 +30,7 @@ const quizData =[
         correct:"a",
     },
     {
-        img : '1674367391072.png',
+        img : 'Quiz_Page/1674367391072.png',
         question: "Question 4/10 \nWhat is the alphabet of this hand sign?",
         a:"U ",
         b:"V ",
@@ -39,7 +39,7 @@ const quizData =[
         correct:"b",
     },
     {
-        img : '1674367418915.png',
+        img : 'Quiz_Page/1674367418915.png',
         question: "Question 5/10 \nWhat is the alphabet of this hand sign?",
         a:"U ",
         b:"V ",
@@ -48,7 +48,7 @@ const quizData =[
         correct:"a",
     },
     {
-        img : '1674367438495.png',
+        img : 'Quiz_Page/1674367438495.png',
         question: "Question 6/10 \nWhat is the alphabet of this hand sign?",
         a:"S ",
         b:"G ",
@@ -57,7 +57,7 @@ const quizData =[
         correct:"a",
     },
     {
-        img : 'quizfrustated.png',
+        img : 'Quiz_Page/quizfrustated.png',
         question: "Question 7/10 \nWhat is the phrase of this hand sign?",
         a:"Go Away ",
         b:"No ",
@@ -66,7 +66,7 @@ const quizData =[
         correct:"c",
     },
     {
-        img : '1674367467179.png',
+        img : 'Quiz_Page/1674367467179.png',
         question: "Question 8/10 \nWhat is the alphabet of this hand sign?",
         a:"I ",
         b:"J ",
@@ -75,7 +75,7 @@ const quizData =[
         correct:"b",
     },
     {
-        img : '1674367486500.png',
+        img : 'Quiz_Page/1674367486500.png',
         question: "Question 9/10 \nWhat is the alphabet of this hand sign?",
         a:"I ",
         b:"J ",
@@ -84,7 +84,7 @@ const quizData =[
         correct:"a",
     },
     {
-        img : 'quizhowmuch.png',
+        img : 'Quiz_Page/quizhowmuch.png',
         question: "Question 10/10 \nWhat is the phrase of this hand sign?",
         a:"What Do you want? ",
         b:"Take it/this ",
@@ -95,8 +95,8 @@ const quizData =[
     
 ];
 
-var audio = new Audio('correct_sound.mp3');
-var audio2 = new Audio('wrong_answer.mp3');
+var audio = new Audio('Quiz_Page/correct_sound.mp3');
+var audio2 = new Audio('Quiz_Page/wrong_answer.mp3');
 const quiz=document.getElementById('quiz')
 const answerEls=document.querySelectorAll('.answer')
 const questionEl=document.getElementById('question')
